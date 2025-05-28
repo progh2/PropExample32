@@ -11,7 +11,11 @@ namespace PropExample32
         static void Main(string[] args)
         {
             Box box1 = new Box(100, 200);
-            Console.WriteLine(box1.Area());
+            box1.Width = -3;
+            Console.WriteLine(box1.Width);
+
+            Console.WriteLine(box1.Area);
+
         }
     }
 }
